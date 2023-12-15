@@ -8,7 +8,7 @@ function Footer() {
     <div className="footer-container">
       <section className="footer-subscription">
         <p className="footer-subscription-heading">
-          John PharmaAssist: Always Ready to Assist
+          St. John's PharmAssist: Always Ready to Assist!
         </p>
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
@@ -29,34 +29,42 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="/sign-up">How it works</Link>
-            <Link to="/">Testimonials</Link>
-            <Link to="/">Careers</Link>
-            <Link to="/">Investors</Link>
-            <Link to="/">Terms of Service</Link>
+            <Link to="/aboutus">Our Beginnings</Link>
+            <Link to="/aboutus">The Story Behind the Name</Link>
+            <Link to="/aboutus">Meet the Team</Link>
+            <Link to="/contactus">Services</Link>
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="/">Contact</Link>
-            <Link to="/">Support</Link>
-            <Link to="/">Destinations</Link>
-            <Link to="/">Sponsorships</Link>
+            <Link to="/contactus">Contact</Link>
+            <Link to="/contactus">Support</Link>
+            <Link to="/contactus">Inbox</Link>
+            <Link to="/contactus">Partnership</Link>
           </div>
         </div>
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
-            <h2>Videos</h2>
-            <Link to="/">Submit Video</Link>
-            <Link to="/">Ambassadors</Link>
-            <Link to="/">Agency</Link>
-            <Link to="/">Influencer</Link>
+            <h2>Articles</h2>
+            <Link to="https://www.who.int/health-topics/medicines#tab=tab_1">
+              Medicine
+            </Link>
+            <Link to="https://opt.who.foundation/?utm_source=google&utm_medium=cpc&gclid=Cj0KCQiA7OqrBhD9ARIsAK3UXh2WrnAS9MXXW2AbWeiwYS_td4tvluHAGpdI_ST5Gl4UcNJZqUCAevoaAlJREALw_wcB">
+              Health
+            </Link>
+            <Link to="https://www.who.int/emergencies/diseases/novel-coronavirus-2019">
+              Pandemic
+            </Link>
+            <Link to="https://opt.who.foundation/?utm_source=google&utm_medium=cpc&gclid=Cj0KCQiA7OqrBhD9ARIsAK3UXh235lL6gr7cyFltyErLd-zAG-gLcitvR2osBFDHitopCCa0jbLHnFYaAifEEALw_wcB">
+              World health Organization
+            </Link>
           </div>
+
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="/">Instagram</Link>
-            <Link to="/">Facebook</Link>
-            <Link to="/">Youtube</Link>
-            <Link to="/">Twitter</Link>
+            <Link to="https://www.instagram.com/">Instagram</Link>
+            <Link to="https://www.facebook.com/">Facebook</Link>
+            <Link to="https://www.youtube.com/">Youtube</Link>
+            <Link to="https://twitter.com/home">Twitter</Link>
           </div>
         </div>
       </div>
@@ -64,15 +72,16 @@ function Footer() {
         <div class="social-media-wrap">
           <div class="footer-logo">
             <Link to="/" className="social-logo">
-              John PharmAssist
+              St. John's PharmAssist
               <i className="fab fa-react"></i>
             </Link>
           </div>
-          <small class="website-rights">John PharmAssist © 2020</small>
+          <small class="website-rights">St. John's PharmAssist © 2023</small>
+
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
-              to="/"
+              to="https://www.facebook.com/"
               target="_blank"
               aria-label="Facebook"
             >
@@ -80,7 +89,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link instagram"
-              to="/"
+              to="https://www.instagram.com/"
               target="_blank"
               aria-label="Instagram"
             >
@@ -88,7 +97,7 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link youtube"
-              to="/"
+              to="https://www.youtube.com/"
               target="_blank"
               aria-label="Youtube"
             >
@@ -96,19 +105,11 @@ function Footer() {
             </Link>
             <Link
               class="social-icon-link twitter"
-              to="/"
+              to="https://twitter.com/home"
               target="_blank"
               aria-label="Twitter"
             >
               <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/"
-              target="_blank"
-              aria-label="LinkedIn"
-            >
-              <i class="fab fa-linkedin" />
             </Link>
           </div>
         </div>
